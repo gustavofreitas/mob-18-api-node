@@ -1,0 +1,25 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "Node api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=prod nodemon index.js",
+    "start-dev": "NODE_ENV=dev nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavofreitas/mob-18-api-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavofreitas/mob-18-api-node/issues"
+  },
+  "homepage": "https://github.com/gustavofreitas/mob-18-api-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
